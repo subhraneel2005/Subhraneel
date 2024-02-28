@@ -1,0 +1,51 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'myFont';
+  src: url(assets/avatar.ttf);
+}
+
+body{
+  font-family: myFont;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.glow {
+  text-shadow: 0 0 10px #000, 0 0 20px #fff, 0 0 30px #000, 0 0 40px rgb(255, 0, 0), 0 0 80px rgb(248, 37, 0), 0 0 100px rgb(251, 255, 0), 0 0 150px rgb(255, 49, 49);
+}
+
+.glowtwo {
+  text-shadow: 0 0 10px #000, 0 0 20px #fff, 0 0 30px #000, 0 0 40px rgb(17, 0, 255),
+  0 0 70px rgb(0, 4, 255), 0 0 80px rgb(0, 17, 248), 0 0 100px rgb(0, 247, 255), 0 0 150px rgb(14, 0, 136);
+}
+
+.black-glow {
+  color: lightblue; /* Text color */
+  text-shadow: 0 0 10px #000,
+               0 0 20px #000,
+               0 0 30px #000,
+               0 0 40px #000,
+               0 0 70px #000,
+               0 0 80px #000,
+               0 0 100px #000,
+               0 0 150px #000; /* Multiple shadows with increasing blur */
+               border: 2px solid transparent; /* Transparent border */
+               border-radius: 5vw; /* Adjust as needed */
+               box-shadow: 0 0 10px white; /* White box-shadow */
+               animation: glow 1.5s infinite alternate; /* Glowing animation */
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 4px rgb(235, 130, 130); /* Initial glow */
+  }
+  to {
+    box-shadow: 0 0 6px rgb(235, 130, 130), 0 0 10px rgb(235, 130, 130), 0 0 15px rgb(235, 130, 130); /* Stronger glow */
+  }
+}
