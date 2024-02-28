@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className='h-screen w-full flex justify-center items-center bg-lime-500'>
         <div className='h-full w-full flex justify-center items-center gap-5 flex-wrap'>
-            <div className='w-[300px] h-[350px] rounded-xl flex justify-center items-center bg-lime-800 p-4 text-lime-200'>
+            <div className='w-[300px] h-[300px] rounded-xl flex justify-center items-center bg-lime-800 p-4 text-lime-200'>
                 <div className='block'>
                     <h1 className='text-4xl font-bold text-center text-lime-100
                     mb-[50px]'>Coding Skills</h1>
@@ -16,7 +16,7 @@ function Skills() {
                 </div>
             </div>
 
-            <div className='w-[300px] h-[350px] rounded-xl flex justify-center items-center text-lime-200 bg-lime-800 p-4'>
+            <div className='w-[300px] h-[300px] rounded-xl flex justify-center items-center text-lime-200 bg-lime-800 p-4'>
                 <div className='block'>
                     <h1 className='text-4xl font-bold text-center text-lime-100 mb-[50px]'>Design and Animations</h1>
                     <ul>
