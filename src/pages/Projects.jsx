@@ -1,7 +1,7 @@
 import React from 'react';
 import b from '../assets/b.jpg';
 import d from '../assets/d.jpg';
-import two from '../assets/two.jpg'
+import two from '../assets/two.png';
 
 function Projects() {
   return (
