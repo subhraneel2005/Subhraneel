@@ -5,7 +5,7 @@ import two from '../assets/two.jpg'
 
 function Projects() {
   return (
-    <div className='h-screen w-full flex justify-center items-center bg-sky-500 select-none'>
+    <div className='h-screen w-full flex justify-center items-center select-none'>
         <div className='h-full w-full flex justify-center items-center gap-5 flex-wrap'>
 
             <div className='w-[350px] h-[400px] rounded-xl flex justify-center items-center text-sky-200 bg-sky-800'>
